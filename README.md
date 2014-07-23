@@ -1,6 +1,3 @@
-LINUX GRUB CHEATSHEET
+Apache2 MPM-ITK & AlternC
 =====================
 
-GRUB Cheatsheet : basic commands and tips for GRUB on LINUX.
-
-@Todo link to pdf page
