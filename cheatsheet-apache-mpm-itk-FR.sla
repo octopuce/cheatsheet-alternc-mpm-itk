@@ -69,18 +69,18 @@
             <trail/>
             <PageItemAttributes/>
         </FRAMEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="140" YPOS="695.28" WIDTH="251.175257731959" HEIGHT="263.304905660377" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 251.175 0 251.175 0 251.175 0 251.175 0 251.175 263.305 251.175 263.305 251.175 263.305 251.175 263.305 0 263.305 0 263.305 0 263.305 0 263.305 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 251.175 0 251.175 0 251.175 0 251.175 0 251.175 263.305 251.175 263.305 251.175 263.305 251.175 263.305 0 263.305 0 263.305 0 263.305 0 263.305 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="140" YPOS="695.28" WIDTH="251.175257731959" HEIGHT="251.587924528302" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 251.175 0 251.175 0 251.175 0 251.175 0 251.175 251.588 251.175 251.588 251.175 251.588 251.175 251.588 0 251.588 0 251.588 0 251.588 0 251.588 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 251.175 0 251.175 0 251.175 0 251.175 0 251.175 251.588 251.175 251.588 251.175 251.588 251.175 251.588 0 251.588 0 251.588 0 251.588 0 251.588 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="MPM-ITK"/>
             <para PARENT="h1"/>
-            <ITEXT CH="The ITK Multi-Processing Module (MPM) works in about the same way as the classical &quot;prefork&quot; module (that is, without threads), except that it allows you to constrain each individual vhost to a particular system user."/>
+            <ITEXT CH="Le module MPM-TK fonctionne comme le module classique &quot;prefork&quot; -autrement dit sans threads- à l'exception du fait qu'il permet de faire tourner chaque vhost sous un utilisateur spécifique."/>
             <para PARENT="Default Paragraph Style"/>
-            <ITEXT CH="This allows you to run several different web sites on a single server without worrying that they will be able to read each others' files. "/>
+            <ITEXT CH="Plusieurs sites web peuvent ainsi être disponibles sur un serveur unique sans avoir à se soucier du fait qu'un utilisateur puisse lire les fichiers d'un autre."/>
             <para PARENT="Default Paragraph Style"/>
-            <ITEXT CH="While all files were owned by the www-data using PHP security directives, MPM-ITK requests different sites to run under different users which is better for security."/>
+            <ITEXT CH="Si avec un serveur classique protégé via les directives de sécurité PHP les fichiers étaient possédés par l'utilisateur www-data, désormais les fichiers des sites doivent être possédés par des utilisateurs différents."/>
             <para PARENT="Default Paragraph Style"/>
             <ITEXT CH="Virtual hosts"/>
             <para PARENT="h2"/>
-            <ITEXT CH="When running MPM-ITK, each individual Apache Virtual Host is assigned to a single user. "/>
+            <ITEXT CH="Avec MPM-ITK, chaque vhost Apache est assigné à un utilisateur."/>
             <para PARENT="Default Paragraph Style"/>
             <ITEXT CH="&lt;Virtualhost *:80&gt;"/>
             <para PARENT="p.code"/>
@@ -96,7 +96,7 @@
             <para PARENT="p.code"/>
             <ITEXT CH="File system "/>
             <para PARENT="h2"/>
-            <ITEXT CH="MPM-ITK requests files to be be -at least- readable by the vost user."/>
+            <ITEXT CH="L'utilisateur doit disposer de droits suffisants sur les fichiers de ce vhost."/>
             <para PARENT="Default Paragraph Style"/>
             <ITEXT CH="# ls -lh  /var/www/the-domain-name.com"/>
             <para PARENT="p.code"/>
@@ -105,54 +105,55 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="403.051546391753" YPOS="695.28" WIDTH="252.228453608247" HEIGHT="240" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 252.228 0 252.228 0 252.228 0 252.228 0 252.228 240 252.228 240 252.228 240 252.228 240 0 240 0 240 0 240 0 240 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 252.228 0 252.228 0 252.228 0 252.228 0 252.228 240 252.228 240 252.228 240 252.228 240 0 240 0 240 0 240 0 240 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT CH="Adding files to an AlternC MPM-ITK server"/>
+            <ITEXT CH="Ajouter des fichiers à un serveur AlternC MPM-ITK "/>
             <para PARENT="h2"/>
-            <ITEXT CH="These options are presented by decreasing order of preference"/>
+            <ITEXT CH="Les options sont présentées par ordre de préférence décroissante."/>
             <para/>
-            <ITEXT CH="#1 Use the AlternC browser"/>
+            <ITEXT CH="#1 Utiliser l'éditeur de fichiers ou un compte FTP AlternC"/>
             <para PARENT="h3"/>
-            <ITEXT CH="To create a single file or folder, the AlternC native browser is perfect."/>
+            <ITEXT CH="Ce sont les solutions parfaites pour créer un simple fichier ou dossier."/>
             <para PARENT="Default Paragraph Style"/>
-            <ITEXT CH="#2 Use the Alternc-SSH module"/>
+            <ITEXT CH="#2 Utiliser le module AlternC-SSH"/>
             <para PARENT="h3"/>
-            <ITEXT CH="Login as the user"/>
-            <para PARENT="h4"/>
-            <ITEXT CH="Use the login of the AlternC account "/>
+            <ITEXT CH="En se loggant en SSH avec l'utilisateur"/>
+            <para PARENT="notes"/>
+            <ITEXT CH="Utiliser le login du compte AlternC"/>
             <para PARENT="Default Paragraph Style"/>
             <ITEXT CPARENT="Default Character Style" CH="Ex:"/>
             <tab CPARENT="Default Character Style"/>
             <ITEXT CPARENT="Default Character Style" CH="me@laptop$ ssh the_user@myserver.com"/>
             <para PARENT="Default Paragraph Style"/>
-            <ITEXT CH="Or login with su"/>
-            <para PARENT="h4"/>
-            <ITEXT CH="Once logged as root, change identity "/>
+            <ITEXT CH="Ou en changeant de personnalité avec su"/>
+            <para PARENT="notes"/>
+            <ITEXT CH="Une fois loggé en tant que root, changer d'identité "/>
             <para PARENT="Default Paragraph Style"/>
             <ITEXT CPARENT="Default Character Style" CH="Ex:"/>
             <tab CPARENT="Default Character Style"/>
             <ITEXT CPARENT="Default Character Style" CH="root@myserver# su the_user"/>
             <para PARENT="p.code"/>
-            <ITEXT CH="#3 Use the AlternC-LXC module"/>
+            <ITEXT CH="#3 Utiliser le module AlternC-LXC"/>
             <para PARENT="h3"/>
-            <ITEXT CPARENT="Default Character Style" CH="Require a new LXC instance and login. All the files are created / edited as the AlternC login user"/>
-            <para PARENT="p.code"/>
-            <ITEXT CH="#4 Fix with fixperms.sh"/>
+            <ITEXT CPARENT="Default Character Style" CH="Demander une"/>
+            <ITEXT CH=" nouvelle instance LXC et se logger en SSH. Tous les fichiers sont créés / édités avec les droits du compte AlternC."/>
+            <para PARENT="Default Paragraph Style"/>
+            <ITEXT CH="#4 Corriger avec fixperms.sh"/>
             <para PARENT="h3"/>
-            <ITEXT CH="Log in with your root or standard Linux account, add/edit files and at the end fix the directory with the utility."/>
+            <ITEXT CH="Se logger avec le compte Unix root, éditer/ajouter des fichiers et remettre les droits d'aplomb avec l'utilitaire."/>
             <trail PARENT="Default Paragraph Style"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="140" YPOS="947.84701030928" WIDTH="515.28" HEIGHT="492.322989690722" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="12" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 515.28 0 515.28 0 515.28 0 515.28 0 515.28 492.323 515.28 492.323 515.28 492.323 515.28 492.323 0 492.323 0 492.323 0 492.323 0 492.323 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 515.28 0 515.28 0 515.28 0 515.28 0 515.28 492.323 515.28 492.323 515.28 492.323 515.28 492.323 0 492.323 0 492.323 0 492.323 0 492.323 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="140" YPOS="947.84701030928" WIDTH="515.28" HEIGHT="509.32298969072" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="12" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 515.28 0 515.28 0 515.28 0 515.28 0 515.28 509.323 515.28 509.323 515.28 509.323 515.28 509.323 0 509.323 0 509.323 0 509.323 0 509.323 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 515.28 0 515.28 0 515.28 0 515.28 0 515.28 509.323 515.28 509.323 515.28 509.323 515.28 509.323 0 509.323 0 509.323 0 509.323 0 509.323 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="AlternC"/>
             <para PARENT="h1"/>
-            <ITEXT CH="The Debian based web administration panel AlternC uses MPM-ITK since its version 3.1 "/>
+            <ITEXT CH="Le panel d'administration web AlternC utilisae MPM-ITK depuis sa version 3.1 "/>
             <para PARENT="Default Paragraph Style"/>
             <ITEXT CH="AlternC users and files"/>
             <para PARENT="h2"/>
-            <ITEXT CH="AlternC matches MPM-ITK UserId with the AlternC login: all AlternC resources are created with an ownership equal to the AlternC Account id."/>
+            <ITEXT CH="Avec AlternC les identifiants UserId de MPM-ITK sont égaux à ceux des logins AlternC : les fichiers et dossiers sont crées en leur attribuant des droits correspondant à cette identité."/>
             <para PARENT="Default Paragraph Style"/>
-            <ITEXT CH="Files and Extended ACL"/>
+            <ITEXT CH="Fichiers et ACL étendus"/>
             <para PARENT="h2"/>
-            <ITEXT CH="AlternC also requires &quot;Extended Access Control List&quot; to set more than one user and group ownership of files and folders. "/>
+            <ITEXT CH="AlternC dépend aussi des &quot;Extended Access Control List&quot; pour définir plus d'un utilisateur / groupe propriétaire des fichiers et dossiers.  "/>
             <para PARENT="Default Paragraph Style"/>
             <ITEXT CH="$"/>
             <nbspace/>
@@ -182,11 +183,13 @@
             <para PARENT="p.code"/>
             <ITEXT CH="other::---"/>
             <para PARENT="p.code"/>
-            <ITEXT CH="Every file/folder belongs to both the &quot;login user&quot; and the alterncpanel user. This is requested for AlternC panel to interact with domains files and folders, namely to add / delete / update files within the file browser."/>
+            <ITEXT CH="Chaque fichier ou dossier appartient à l'utilisateur AlternC et également à l'utilisateur alterncpanel, afin que le panel AlternC puisse interagir avec les fichiers et les dossiers du dossier et notamment éditer des fichiers avec l'éditeur de fichier AlternC."/>
             <para PARENT="Default Paragraph Style"/>
-            <ITEXT CH="The fixperms.sh script utility"/>
+            <ITEXT CH="L'utilitaire fixperms.sh "/>
             <para PARENT="h2"/>
-            <ITEXT CH="When adding files or folders through an SSH account, they are created with the SSH user account ownership. Use fixperms.sh to force the Extended ACL of files to match the AlternC database logins."/>
+            <ITEXT CH="En éditant avec un compte UNIX non-AlternC (ex : root) des fichiers , leur propriétaire par défaut est ce compte UNIX, ce qui peut causer des bugs en raison de droits invalides pour MPM-ITK. "/>
+            <para PARENT="Default Paragraph Style"/>
+            <ITEXT CH="L'utilitaire fixperms.sh répare la correspondance entre les ACL étendues des fichiers / dossiers et les comptes AlternC dont ils dépendent."/>
             <para PARENT="Default Paragraph Style"/>
             <ITEXT CH="Location"/>
             <para PARENT="h4"/>
@@ -198,62 +201,61 @@
             <tab/>
             <para PARENT="p.code"/>
             <tab/>
-            <ITEXT CH="Fixes all permissions for all accounts. "/>
+            <ITEXT CH="Répare toutes les autorisations pour tous les comptes "/>
             <para PARENT="notes"/>
             <ITEXT CH="fixperms -d /var/alternc/t/the_user/"/>
             <para PARENT="p.code"/>
             <tab/>
-            <ITEXT CH="Fixes a single directory"/>
+            <ITEXT CH="Répare un [d]ossier unique"/>
             <para PARENT="notes"/>
             <ITEXT CH="fixperms -f /var/alternc/t/the_user/www/index.php"/>
             <para PARENT="p.code"/>
             <tab/>
-            <ITEXT CH="Fixes a single file"/>
+            <ITEXT CH="Répare un [f]ichier unique"/>
             <para PARENT="notes"/>
             <ITEXT CH="fixperms -l the_user"/>
             <para PARENT="p.code"/>
             <tab/>
-            <ITEXT CH="Fixes a single login files"/>
+            <ITEXT CH="Répare le dossier d'un [l]ogin AlternC"/>
             <para PARENT="notes"/>
             <ITEXT CH="fixperms -u 2001"/>
             <para PARENT="p.code"/>
             <tab/>
-            <ITEXT CH="Fixes a single login files"/>
+            <ITEXT CH="Répare le dossier d'un login AlternC par [u]id"/>
             <para PARENT="notes"/>
-            <breakcol/>
             <ITEXT CH="AlternC-SSH"/>
             <para PARENT="h2"/>
-            <ITEXT CH="AlternC-SSH is an AlternC module which creates real UNIX user accounts for the AlternC users."/>
+            <ITEXT CH="AlternC-SSH est un module AlternC qui génère un compte UNIX réel pour chaque compte AlternC."/>
             <para PARENT="Default Paragraph Style"/>
-            <ITEXT CH="It allows the admin to add SSH keys to the AlternC database. Keys can either be &quot;admin keys&quot; valid for all accounts ; or &quot;user keys&quot; valid for  a single account."/>
+            <ITEXT CH="L'administrateur peut ajouter des clefs SSH à la base de données AlternC. Soit une clef &quot;admin&quot; valable pour chaque compte, soit une clef &quot;utilisateur&quot; valable pour un compte unique."/>
             <para PARENT="Default Paragraph Style"/>
-            <ITEXT CH="Each time a new AlternC login is created, AlternC-SSH will create a new home directory for the user and the authorized SSH keys.   "/>
+            <ITEXT CH="À la création d'un nouveau login AlternC, le module AlternC-SSH crée le dossier &quot;home&quot; de l'utilisateur  et le jeu de clefs SSH autorisées."/>
             <para PARENT="Default Paragraph Style"/>
-            <ITEXT CH="MPM-ITK Configuration Directives"/>
+            <ITEXT CH="Directives de configuration MPM-ITK "/>
             <para PARENT="h1"/>
             <ITEXT CH="AssignUserID"/>
             <para PARENT="h3"/>
-            <ITEXT CH="Takes two parameters, uid and gid specifying what uid and gid the vhost will run as. They can be user name and group name strings or integer values in which case use #&lt;int&gt; to specify the raw id. Note that if you do not assign a user ID, the default one from Apache will be used."/>
+            <ITEXT CH="Prend 2 paramètres, uid et gid, qui assignent le uid et gid sous lesquels le vhost tourne. On utilise soit les uid numériques sous la forme #&lt;int&gt; soit les noms des utilisateurs et groupes. Notez que sans user ID, ce sont les défauts d'Apache qui seront utilisés."/>
             <para/>
             <ITEXT CH="MaxClientsVHost"/>
             <para PARENT="h3"/>
-            <ITEXT CH="The maximum number of clients for the vhost. This can be useful to block a single vhost to trust all the server clients. "/>
+            <ITEXT CH="Un nombre maximal de client par vhost qui permet d'empêcher qu'un vhost unique préempte la totalité du nombre maximal de clients du serveur."/>
             <para/>
             <ITEXT CH="NiceValue"/>
             <para PARENT="h3"/>
-            <ITEXT CH="Lets you nice some requests down, to give them less CPU time."/>
+            <ITEXT CH="Permet de réduire la priorité d'exécution des requêtes sur le vhost pour leur donner moins de temps CPU."/>
             <para/>
             <ITEXT CH="AssignUserIDExpr, AssignGroupIDExpr "/>
             <para PARENT="h3"/>
-            <ITEXT CH="(Apache 2.4 or newer only)"/>
+            <ITEXT CH="(Apache 2.4 ou plus récent)"/>
             <para PARENT="notes"/>
-            <ITEXT CH="Like AssignUserID, but takes in an Apache expression to dynamically choose user or group. "/>
+            <ITEXT CH="Comme AssignUserID, mais utilise une expression régulière Apache pour choisur un uid ou un groupe."/>
             <para PARENT="Default Paragraph Style"/>
             <ITEXT CH="LimitUIDRange, LimitGIDRange "/>
             <para PARENT="h3"/>
-            <ITEXT CH="(Apache 2.4 or newer only)"/>
+            <ITEXT CH="(Apache 2.4 ou plus récent)"/>
             <para PARENT="notes"/>
-            <ITEXT CH="Restrict setuid() and setgid() calls to a given range (e.g. “LimitUIDRange 1000 2000&quot; to allow only uids from 1000 to 2000, inclusive), possibly increasing security somewhat. "/>
+            <ITEXT CH="Restreint les appels à setuid() and setgid() à une plage pour empêcher la création de vhosts en dehors avec des uid bas notamment. "/>
             <para/>
             <ITEXT CH="Sources"/>
             <para PARENT="h1"/>
@@ -278,39 +280,40 @@
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="140" YPOS="318.774845360825" WIDTH="240" HEIGHT="235.854020618557" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 240 0 240 0 240 0 240 0 240 235.854 240 235.854 240 235.854 240 235.854 0 235.854 0 235.854 0 235.854 0 235.854 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 240 0 240 0 240 0 240 0 240 235.854 240 235.854 240 235.854 240 235.854 0 235.854 0 235.854 0 235.854 0 235.854 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
-            <ITEXT CH="Adding files to an AlternC MPM-ITK server"/>
+            <ITEXT CH="Ajouter des fichiers à un serveur AlternC MPM-ITK "/>
             <para PARENT="h2"/>
-            <ITEXT CH="These options are presented by decreasing order of preference"/>
+            <ITEXT CH="Les options sont présentées par ordre de préférence décroissante."/>
             <para/>
-            <ITEXT CH="#1 Use the AlternC browser"/>
+            <ITEXT CH="#1 Utiliser l'éditeur de fichiers ou un compte FTP AlternC"/>
             <para PARENT="h3"/>
-            <ITEXT CH="To create a single file or folder, the AlternC native browser is perfect."/>
+            <ITEXT CH="Ce sont les solutions parfaites pour créer un simple fichier ou dossier."/>
             <para PARENT="Default Paragraph Style"/>
-            <ITEXT CH="#2 Use the Alternc-SSH module"/>
+            <ITEXT CH="#2 Utiliser le module AlternC-SSH"/>
             <para PARENT="h3"/>
-            <ITEXT CH="Login as the user"/>
-            <para PARENT="h4"/>
-            <ITEXT CH="Use the login of the AlternC account "/>
+            <ITEXT CH="En se loggant en SSH avec l'utilisateur"/>
+            <para PARENT="notes"/>
+            <ITEXT CH="Utiliser le login du compte AlternC"/>
             <para PARENT="Default Paragraph Style"/>
             <ITEXT CPARENT="Default Character Style" CH="Ex:"/>
             <tab CPARENT="Default Character Style"/>
             <ITEXT CPARENT="Default Character Style" CH="me@laptop$ ssh the_user@myserver.com"/>
             <para PARENT="Default Paragraph Style"/>
-            <ITEXT CH="Or login with su"/>
-            <para PARENT="h4"/>
-            <ITEXT CH="Once logged as root, change identity "/>
+            <ITEXT CH="Ou en changeant de personnalité avec su"/>
+            <para PARENT="notes"/>
+            <ITEXT CH="Une fois loggé en tant que root, changer d'identité "/>
             <para PARENT="Default Paragraph Style"/>
             <ITEXT CPARENT="Default Character Style" CH="Ex:"/>
             <tab CPARENT="Default Character Style"/>
             <ITEXT CPARENT="Default Character Style" CH="root@myserver# su the_user"/>
             <para PARENT="p.code"/>
-            <ITEXT CH="#3 Use the AlternC-LXC module"/>
+            <ITEXT CH="#3 Utiliser le module AlternC-LXC"/>
             <para PARENT="h3"/>
-            <ITEXT CPARENT="Default Character Style" CH="Require a new LXC instance and login. All the files are created / edited as the AlternC login user"/>
-            <para PARENT="p.code"/>
-            <ITEXT CH="#4 Fix with fixperms.sh"/>
+            <ITEXT CPARENT="Default Character Style" CH="Demander une"/>
+            <ITEXT CH=" nouvelle instance LXC et se logger en SSH. Tous les fichiers sont créés / édités avec les droits du compte AlternC."/>
+            <para PARENT="Default Paragraph Style"/>
+            <ITEXT CH="#4 Corriger avec fixperms.sh"/>
             <para PARENT="h3"/>
-            <ITEXT CH="Log in with your root or standard Linux account, add/edit files and at the end fix the directory with the utility."/>
+            <ITEXT CH="Se logger avec le compte Unix root, éditer/ajouter des fichiers et remettre les droits d'aplomb avec l'utilitaire."/>
             <trail PARENT="Default Paragraph Style"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
@@ -324,22 +327,22 @@
             <nbspace/>
             <nbspace/>
             <nbspace/>
-            <ITEXT FONT="Georgia Italic" CH="Web server user restrictions"/>
+            <ITEXT FONT="Georgia Italic" CH="Contrôle d'accès des utilisateurs"/>
             <trail PARENT="h1"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
         <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="140" YPOS="60" WIDTH="240.28" HEIGHT="252.452830188679" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 240.28 0 240.28 0 240.28 0 240.28 0 240.28 252.453 240.28 252.453 240.28 252.453 240.28 252.453 0 252.453 0 252.453 0 252.453 0 252.453 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 240.28 0 240.28 0 240.28 0 240.28 0 240.28 252.453 240.28 252.453 240.28 252.453 240.28 252.453 0 252.453 0 252.453 0 252.453 0 252.453 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="MPM-ITK"/>
             <para PARENT="h1"/>
-            <ITEXT CH="The ITK Multi-Processing Module (MPM) works in about the same way as the classical &quot;prefork&quot; module (that is, without threads), except that it allows you to constrain each individual vhost to a particular system user."/>
+            <ITEXT CH="Le module MPM-TK fonctionne comme le module classique &quot;prefork&quot; -autrement dit sans threads- à l'exception du fait qu'il permet de faire tourner chaque vhost sous un utilisateur spécifique."/>
             <para PARENT="Default Paragraph Style"/>
-            <ITEXT CH="This allows you to run several different web sites on a single server without worrying that they will be able to read each others' files. "/>
+            <ITEXT CH="Plusieurs sites web peuvent ainsi être disponibles sur un serveur unique sans avoir à se soucier du fait qu'un utilisateur puisse lire les fichiers d'un autre."/>
             <para PARENT="Default Paragraph Style"/>
-            <ITEXT CH="While all files were owned by the www-data using PHP security directives, MPM-ITK requests different sites to run under different users which is better for security."/>
+            <ITEXT CH="Si avec un serveur classique protégé via les directives de sécurité PHP les fichiers étaient possédés par l'utilisateur www-data, désormais les fichiers des sites doivent être possédés par des utilisateurs différents."/>
             <para PARENT="Default Paragraph Style"/>
             <ITEXT CH="Virtual hosts"/>
             <para PARENT="h2"/>
-            <ITEXT CH="When running MPM-ITK, each individual Apache Virtual Host is assigned to a single user. "/>
+            <ITEXT CH="Avec MPM-ITK, chaque vhost Apache est assigné à un utilisateur."/>
             <para PARENT="Default Paragraph Style"/>
             <ITEXT CH="&lt;Virtualhost *:80&gt;"/>
             <para PARENT="p.code"/>
@@ -355,7 +358,7 @@
             <para PARENT="p.code"/>
             <ITEXT CH="File system "/>
             <para PARENT="h2"/>
-            <ITEXT CH="MPM-ITK requests files to be be -at least- readable by the vost user."/>
+            <ITEXT CH="L'utilisateur doit disposer de droits suffisants sur les fichiers de ce vhost."/>
             <para PARENT="Default Paragraph Style"/>
             <ITEXT CH="# ls -lh  /var/www/the-domain-name.com"/>
             <para PARENT="p.code"/>
@@ -363,18 +366,18 @@
             <para PARENT="p.code"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="392" YPOS="60" WIDTH="509.89" HEIGHT="496.701030927835" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="12" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 509.89 0 509.89 0 509.89 0 509.89 0 509.89 496.701 509.89 496.701 509.89 496.701 509.89 496.701 0 496.701 0 496.701 0 496.701 0 496.701 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 509.89 0 509.89 0 509.89 0 509.89 0 509.89 496.701 509.89 496.701 509.89 496.701 509.89 496.701 0 496.701 0 496.701 0 496.701 0 496.701 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="392" YPOS="60" WIDTH="508.89" HEIGHT="494.7" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="2" COLGAP="12" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 508.89 0 508.89 0 508.89 0 508.89 0 508.89 494.7 508.89 494.7 508.89 494.7 508.89 494.7 0 494.7 0 494.7 0 494.7 0 494.7 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 508.89 0 508.89 0 508.89 0 508.89 0 508.89 494.7 508.89 494.7 508.89 494.7 508.89 494.7 0 494.7 0 494.7 0 494.7 0 494.7 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="AlternC"/>
             <para PARENT="h1"/>
-            <ITEXT CH="The Debian based web administration panel AlternC uses MPM-ITK since its version 3.1 "/>
+            <ITEXT CH="Le panel d'administration web AlternC utilisae MPM-ITK depuis sa version 3.1 "/>
             <para PARENT="Default Paragraph Style"/>
             <ITEXT CH="AlternC users and files"/>
             <para PARENT="h2"/>
-            <ITEXT CH="AlternC matches MPM-ITK UserId with the AlternC login: all AlternC resources are created with an ownership equal to the AlternC Account id."/>
+            <ITEXT CH="Avec AlternC les identifiants UserId de MPM-ITK sont égaux à ceux des logins AlternC : les fichiers et dossiers sont crées en leur attribuant des droits correspondant à cette identité."/>
             <para PARENT="Default Paragraph Style"/>
-            <ITEXT CH="Files and Extended ACL"/>
+            <ITEXT CH="Fichiers et ACL étendus"/>
             <para PARENT="h2"/>
-            <ITEXT CH="AlternC also requires &quot;Extended Access Control List&quot; to set more than one user and group ownership of files and folders. "/>
+            <ITEXT CH="AlternC dépend aussi des &quot;Extended Access Control List&quot; pour définir plus d'un utilisateur / groupe propriétaire des fichiers et dossiers.  "/>
             <para PARENT="Default Paragraph Style"/>
             <ITEXT CH="$"/>
             <nbspace/>
@@ -404,11 +407,13 @@
             <para PARENT="p.code"/>
             <ITEXT CH="other::---"/>
             <para PARENT="p.code"/>
-            <ITEXT CH="Every file/folder belongs to both the &quot;login user&quot; and the alterncpanel user. This is requested for AlternC panel to interact with domains files and folders, namely to add / delete / update files within the file browser."/>
+            <ITEXT CH="Chaque fichier ou dossier appartient à l'utilisateur AlternC et également à l'utilisateur alterncpanel, afin que le panel AlternC puisse interagir avec les fichiers et les dossiers du dossier et notamment éditer des fichiers avec l'éditeur de fichier AlternC."/>
             <para PARENT="Default Paragraph Style"/>
-            <ITEXT CH="The fixperms.sh script utility"/>
+            <ITEXT CH="L'utilitaire fixperms.sh "/>
             <para PARENT="h2"/>
-            <ITEXT CH="When adding files or folders through an SSH account, they are created with the SSH user account ownership. Use fixperms.sh to force the Extended ACL of files to match the AlternC database logins."/>
+            <ITEXT CH="En éditant avec un compte UNIX non-AlternC (ex : root) des fichiers , leur propriétaire par défaut est ce compte UNIX, ce qui peut causer des bugs en raison de droits invalides pour MPM-ITK. "/>
+            <para PARENT="Default Paragraph Style"/>
+            <ITEXT CH="L'utilitaire fixperms.sh répare la correspondance entre les ACL étendues des fichiers / dossiers et les comptes AlternC dont ils dépendent."/>
             <para PARENT="Default Paragraph Style"/>
             <ITEXT CH="Location"/>
             <para PARENT="h4"/>
@@ -420,62 +425,61 @@
             <tab/>
             <para PARENT="p.code"/>
             <tab/>
-            <ITEXT CH="Fixes all permissions for all accounts. "/>
+            <ITEXT CH="Répare toutes les autorisations pour tous les comptes "/>
             <para PARENT="notes"/>
             <ITEXT CH="fixperms -d /var/alternc/t/the_user/"/>
             <para PARENT="p.code"/>
             <tab/>
-            <ITEXT CH="Fixes a single directory"/>
+            <ITEXT CH="Répare un [d]ossier unique"/>
             <para PARENT="notes"/>
             <ITEXT CH="fixperms -f /var/alternc/t/the_user/www/index.php"/>
             <para PARENT="p.code"/>
             <tab/>
-            <ITEXT CH="Fixes a single file"/>
+            <ITEXT CH="Répare un [f]ichier unique"/>
             <para PARENT="notes"/>
             <ITEXT CH="fixperms -l the_user"/>
             <para PARENT="p.code"/>
             <tab/>
-            <ITEXT CH="Fixes a single login files"/>
+            <ITEXT CH="Répare le dossier d'un [l]ogin AlternC"/>
             <para PARENT="notes"/>
             <ITEXT CH="fixperms -u 2001"/>
             <para PARENT="p.code"/>
             <tab/>
-            <ITEXT CH="Fixes a single login files"/>
+            <ITEXT CH="Répare le dossier d'un login AlternC par [u]id"/>
             <para PARENT="notes"/>
-            <breakcol/>
             <ITEXT CH="AlternC-SSH"/>
             <para PARENT="h2"/>
-            <ITEXT CH="AlternC-SSH is an AlternC module which creates real UNIX user accounts for the AlternC users."/>
+            <ITEXT CH="AlternC-SSH est un module AlternC qui génère un compte UNIX réel pour chaque compte AlternC."/>
             <para PARENT="Default Paragraph Style"/>
-            <ITEXT CH="It allows the admin to add SSH keys to the AlternC database. Keys can either be &quot;admin keys&quot; valid for all accounts ; or &quot;user keys&quot; valid for  a single account."/>
+            <ITEXT CH="L'administrateur peut ajouter des clefs SSH à la base de données AlternC. Soit une clef &quot;admin&quot; valable pour chaque compte, soit une clef &quot;utilisateur&quot; valable pour un compte unique."/>
             <para PARENT="Default Paragraph Style"/>
-            <ITEXT CH="Each time a new AlternC login is created, AlternC-SSH will create a new home directory for the user and the authorized SSH keys.   "/>
+            <ITEXT CH="À la création d'un nouveau login AlternC, le module AlternC-SSH crée le dossier &quot;home&quot; de l'utilisateur  et le jeu de clefs SSH autorisées."/>
             <para PARENT="Default Paragraph Style"/>
-            <ITEXT CH="MPM-ITK Configuration Directives"/>
+            <ITEXT CH="Directives de configuration MPM-ITK "/>
             <para PARENT="h1"/>
             <ITEXT CH="AssignUserID"/>
             <para PARENT="h3"/>
-            <ITEXT CH="Takes two parameters, uid and gid specifying what uid and gid the vhost will run as. They can be user name and group name strings or integer values in which case use #&lt;int&gt; to specify the raw id. Note that if you do not assign a user ID, the default one from Apache will be used."/>
+            <ITEXT CH="Prend 2 paramètres, uid et gid, qui assignent le uid et gid sous lesquels le vhost tourne. On utilise soit les uid numériques sous la forme #&lt;int&gt; soit les noms des utilisateurs et groupes. Notez que sans user ID, ce sont les défauts d'Apache qui seront utilisés."/>
             <para/>
             <ITEXT CH="MaxClientsVHost"/>
             <para PARENT="h3"/>
-            <ITEXT CH="The maximum number of clients for the vhost. This can be useful to block a single vhost to trust all the server clients. "/>
+            <ITEXT CH="Un nombre maximal de client par vhost qui permet d'empêcher qu'un vhost unique préempte la totalité du nombre maximal de clients du serveur."/>
             <para/>
             <ITEXT CH="NiceValue"/>
             <para PARENT="h3"/>
-            <ITEXT CH="Lets you nice some requests down, to give them less CPU time."/>
+            <ITEXT CH="Permet de réduire la priorité d'exécution des requêtes sur le vhost pour leur donner moins de temps CPU."/>
             <para/>
             <ITEXT CH="AssignUserIDExpr, AssignGroupIDExpr "/>
             <para PARENT="h3"/>
-            <ITEXT CH="(Apache 2.4 or newer only)"/>
+            <ITEXT CH="(Apache 2.4 ou plus récent)"/>
             <para PARENT="notes"/>
-            <ITEXT CH="Like AssignUserID, but takes in an Apache expression to dynamically choose user or group. "/>
+            <ITEXT CH="Comme AssignUserID, mais utilise une expression régulière Apache pour choisur un uid ou un groupe."/>
             <para PARENT="Default Paragraph Style"/>
             <ITEXT CH="LimitUIDRange, LimitGIDRange "/>
             <para PARENT="h3"/>
-            <ITEXT CH="(Apache 2.4 or newer only)"/>
+            <ITEXT CH="(Apache 2.4 ou plus récent)"/>
             <para PARENT="notes"/>
-            <ITEXT CH="Restrict setuid() and setgid() calls to a given range (e.g. “LimitUIDRange 1000 2000&quot; to allow only uids from 1000 to 2000, inclusive), possibly increasing security somewhat. "/>
+            <ITEXT CH="Restreint les appels à setuid() and setgid() à une plage pour empêcher la création de vhosts en dehors avec des uid bas notamment. "/>
             <para/>
             <ITEXT CH="Sources"/>
             <para PARENT="h1"/>
@@ -485,17 +489,17 @@
             <para/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="213.34020619" YPOS="1448.42857142857" WIDTH="471.93979381" HEIGHT="8.74142857142877" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 471.94 0 471.94 0 471.94 0 471.94 0 471.94 8.74143 471.94 8.74143 471.94 8.74143 471.94 8.74143 0 8.74143 0 8.74143 0 8.74143 0 8.74143 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 471.94 0 471.94 0 471.94 0 471.94 0 471.94 8.74143 471.94 8.74143 471.94 8.74143 471.94 8.74143 0 8.74143 0 8.74143 0 8.74143 0 8.74143 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="213.34020619" YPOS="1465.17682542857" WIDTH="471.93979381" HEIGHT="8.74142857142877" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 471.94 0 471.94 0 471.94 0 471.94 0 471.94 8.74143 471.94 8.74143 471.94 8.74143 471.94 8.74143 0 8.74143 0 8.74143 0 8.74143 0 8.74143 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 471.94 0 471.94 0 471.94 0 471.94 0 471.94 8.74143 471.94 8.74143 471.94 8.74143 471.94 8.74143 0 8.74143 0 8.74143 0 8.74143 0 8.74143 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="Original document available on http://github.com/octopuce/cheatsheet-grub - CC by SA 4.0 "/>
             <para PARENT="notes"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="577.30752577" YPOS="1448.1746031746" WIDTH="77.97247423" HEIGHT="8.75663393539696" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 77.9725 0 77.9725 0 77.9725 0 77.9725 0 77.9725 8.75663 77.9725 8.75663 77.9725 8.75663 77.9725 8.75663 0 8.75663 0 8.75663 0 8.75663 0 8.75663 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 77.9725 0 77.9725 0 77.9725 0 77.9725 0 77.9725 8.75663 77.9725 8.75663 77.9725 8.75663 77.9725 8.75663 0 8.75663 0 8.75663 0 8.75663 0 8.75663 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="2" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="4" XPOS="577.30752577" YPOS="1464.9228571746" WIDTH="77.97247423" HEIGHT="8.75663393539696" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 77.9725 0 77.9725 0 77.9725 0 77.9725 0 77.9725 8.75663 77.9725 8.75663 77.9725 8.75663 77.9725 8.75663 0 8.75663 0 8.75663 0 8.75663 0 8.75663 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 77.9725 0 77.9725 0 77.9725 0 77.9725 0 77.9725 8.75663 77.9725 8.75663 77.9725 8.75663 77.9725 8.75663 0 8.75663 0 8.75663 0 8.75663 0 8.75663 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" ALIGN="2" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT FONTSIZE="8" CH="v.20140610"/>
             <trail PARENT="h1" ALIGN="2"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="205.34020619" YPOS="566.538571429" WIDTH="471.9397938" HEIGHT="8.741428571" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 471.94 0 471.94 0 471.94 0 471.94 0 471.94 8.74143 471.94 8.74143 471.94 8.74143 471.94 8.74143 0 8.74143 0 8.74143 0 8.74143 0 8.74143 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 471.94 0 471.94 0 471.94 0 471.94 0 471.94 8.74143 471.94 8.74143 471.94 8.74143 471.94 8.74143 0 8.74143 0 8.74143 0 8.74143 0 8.74143 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="0" PTYPE="4" XPOS="217.34020619" YPOS="566.538571429" WIDTH="471.9397938" HEIGHT="8.741428571" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="1" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="1" EMBEDDED="1" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 471.94 0 471.94 0 471.94 0 471.94 0 471.94 8.74143 471.94 8.74143 471.94 8.74143 471.94 8.74143 0 8.74143 0 8.74143 0 8.74143 0 8.74143 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 471.94 0 471.94 0 471.94 0 471.94 0 471.94 8.74143 471.94 8.74143 471.94 8.74143 471.94 8.74143 0 8.74143 0 8.74143 0 8.74143 0 8.74143 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <ITEXT CH="Original document available on http://github.com/octopuce/cheatsheet-alternc-mpm-itk     CC by SA 4.0 "/>
             <para PARENT="notes"/>
             <PageItemAttributes/>
@@ -509,7 +513,7 @@
             <trail PARENT="h1" ALIGN="2"/>
             <PageItemAttributes/>
         </PAGEOBJECT>
-        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="140" YPOS="1440.421746" WIDTH="64" HEIGHT="37.91485774" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.256" LOCALSCY="0.256" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../projets/octo/logo-blue.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 64 0 64 0 64 0 64 0 64 37.9149 64 37.9149 64 37.9149 64 37.9149 0 37.9149 0 37.9149 0 37.9149 0 37.9149 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 64 0 64 0 64 0 64 0 64 37.9149 64 37.9149 64 37.9149 64 37.9149 0 37.9149 0 37.9149 0 37.9149 0 37.9149 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT OwnPage="1" PTYPE="2" XPOS="140" YPOS="1457.17" WIDTH="64" HEIGHT="37.91485774" RADRECT="0" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PCOLOR="None" PCOLOR2="None" COLUMNS="1" COLGAP="0" NAMEDLST="" SHADE="100" SHADE2="100" GRTYP="0" ROT="0" PLINEART="1" PLINEEND="0" PLINEJOIN="0" LOCALSCX="0.256" LOCALSCY="0.256" LOCALX="0" LOCALY="0" PICART="1" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" FLIPPEDH="0" FLIPPEDV="0" SCALETYPE="0" RATIO="1" PRINTABLE="1" ANNOTATION="0" ANNAME="" TEXTFLOWMODE="0" TEXTFLOW="0" TEXTFLOW2="0" TEXTFLOW3="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" FLOP="0" PFILE="../../projets/octo/logo-blue.png" PFILE2="" PFILE3="" PRFILE="" EPROF="" IRENDER="0" EMBEDDED="0" LOCK="0" LOCKR="0" REVERS="0" TransValue="0" TransValueS="0" TransBlend="0" TransBlendS="0" isTableItem="0" TopLine="0" LeftLine="0" RightLine="0" BottomLine="0" isGroupControl="0" NUMDASH="0" DASHS="" DASHOFF="0" NUMPO="16" POCOOR="0 0 0 0 64 0 64 0 64 0 64 0 64 37.9149 64 37.9149 64 37.9149 64 37.9149 0 37.9149 0 37.9149 0 37.9149 0 37.9149 0 0 0 0 " NUMCO="16" COCOOR="0 0 0 0 64 0 64 0 64 0 64 0 64 37.9149 64 37.9149 64 37.9149 64 37.9149 0 37.9149 0 37.9149 0 37.9149 0 37.9149 0 0 0 0 " NUMGROUP="0" GROUPS="" startArrowIndex="0" endArrowIndex="0" OnMasterPage="" ImageClip="" ImageRes="1" Pagenumber="0" isInline="0" fillRule="1" doOverprint="0" gXpos="0" gYpos="0" gWidth="0" gHeight="0" LAYER="0" BOOKMARK="0" NEXTITEM="-1" BACKITEM="-1">
             <trail/>
             <PageItemAttributes/>
         </PAGEOBJECT>
